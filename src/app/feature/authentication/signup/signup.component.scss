@@ -1,0 +1,27 @@
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.role-choice {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  .role {
+    cursor: pointer;
+    margin: 5px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 20px;
+    min-width: 350px;
+    .text-role {
+      strong {
+        font-size: 25px;
+      }
+      margin-top: 10px;
+    }
+  }
+}
